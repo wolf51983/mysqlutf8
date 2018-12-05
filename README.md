@@ -65,3 +65,8 @@ mysql> show variables like "%character%";
 +--------------------------+----------------------------------+
 8 rows in set (0.01 sec)
 ```
+
+---
+dockerfile
+* 添加root远程登陆授权;
+* -e MYSQL_ROOT_PASSWORD环境变量 
